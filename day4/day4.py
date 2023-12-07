@@ -32,7 +32,7 @@ def part2():
             for j in range(i+1,i+tab[i]+1):
                 if j < len(tab):
                     scratch[j] += scratch[i]
-        print(scratch) 
+            print(scratch) 
         print(sum(scratch))
 
 part2()
